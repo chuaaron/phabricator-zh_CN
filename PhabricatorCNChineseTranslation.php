@@ -247,7 +247,7 @@ return array(
   '%s Board' => null,
 
   // src/applications/repository/query/PhabricatorRepositorySearchEngine.php:189
-  '%s Commit(s)' => null,
+  '%s Commit(s)' => '%s个提交',
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:1130
   '%s Complete' => null,
@@ -3493,7 +3493,7 @@ return array(
   'Accept' => null,
 
   // src/applications/audit/constants/PhabricatorAuditActionConstants.php:19
-  'Accept Commit \342\234\224' => null,
+  'Accept Commit \xE2\x9C\x94' => '接受当前提交 \xE2\x9C\x94',
 
   // src/applications/people/controller/PhabricatorPeopleEmpowerController.php:38
   'Accept Fate' => null,
@@ -3890,7 +3890,7 @@ return array(
 
   // src/applications/audit/constants/PhabricatorAuditActionConstants.php:23
   // src/applications/diffusion/controller/DiffusionCommitController.php:697
-  'Add Auditors' => null,
+  'Add Auditors' => '添加审核员',
 
   // src/applications/settings/panel/PhabricatorMultiFactorSettingsPanel.php:121
   // src/applications/settings/panel/PhabricatorMultiFactorSettingsPanel.php:215
@@ -4051,7 +4051,7 @@ return array(
 
   // src/applications/differential/view/DifferentialAddCommentView.php:98
   // src/applications/differential/constants/DifferentialAction.php:133
-  'Add Subscribers' => null,
+  'Add Subscribers' => '添加关注者',
 
   // src/applications/calendar/controller/PhabricatorCalendarEventViewController.php:79
   'Add To Plate' => null,
@@ -4739,7 +4739,7 @@ return array(
   'Almanac Binding' => null,
 
   // src/applications/almanac/controller/AlmanacConsoleController.php:50
-  'Almanac Console' => null,
+  'Almanac Console' => 'Almanac控制台',
 
   // src/applications/almanac/phid/AlmanacDevicePHIDType.php:8
   // src/applications/almanac/editor/AlmanacDeviceEditor.php:11
@@ -9018,7 +9018,7 @@ return array(
   'Create a phame post.' => null,
 
   // src/applications/project/conduit/ProjectCreateConduitAPIMethod.php:10
-  'Create a project.' => null,
+  'Create a project.' => '创建一个项目',
 
   // src/applications/drydock/management/DrydockManagementCreateResourceWorkflow.php:9
   'Create a resource manually.' => null,
@@ -11294,9 +11294,10 @@ return array(
 
   // src/applications/search/controller/PhabricatorApplicationSearchController.php:191
   'Edit Query...' => '编辑查询...',
+  'Edit Query' => '编辑查询',
 
   // src/applications/ponder/controller/PonderQuestionViewController.php:101
-  'Edit Question' => null,
+  'Edit Question' => '编辑问题',
 
   // src/applications/nuance/controller/NuanceQueueViewController.php:72
   'Edit Queue' => "编辑队列",
@@ -15527,7 +15528,7 @@ return array(
   // src/applications/auth/provider/PhabricatorPasswordAuthProvider.php:177
   // src/applications/auth/controller/PhabricatorAuthStartController.php:186
   // src/applications/auth/controller/PhabricatorAuthOneTimeLoginController.php:167
-  'Login to Phabricator' => '登录Phabricator',
+  'Login to Phabricator' => '登录到开源平台',
 
   // src/applications/diffusion/config/PhabricatorDiffusionConfigOptions.php:120
   'Login username for SSH connections to repositories.' => null,
@@ -15536,7 +15537,7 @@ return array(
   'Login validation is missing expected parameter ("%s").' => null,
 
   // src/applications/auth/provider/PhabricatorLDAPAuthProvider.php:86
-  'Login with LDAP' => null,
+  'Login with LDAP' => '使用LDAP账号登陆',
 
   // src/applications/oauthserver/application/PhabricatorOAuthServerApplication.php:26
   'Login with Phabricator' => '使用Phabricator登录',
@@ -16206,7 +16207,7 @@ return array(
   'Minimum allowed amount is %s.' => null,
 
   // src/applications/auth/controller/PhabricatorAuthRegisterController.php:460
-  'Minimum length of %d characters.' => null,
+  'Minimum length of %d characters.' => '至少%d位字符',
 
   // src/applications/config/option/PhabricatorAuthenticationConfigOptions.php:101
   'Minimum password length.' => '最小密码长度',
@@ -16825,7 +16826,7 @@ return array(
 
   // src/applications/phame/controller/PhameController.php:13
   // src/applications/phame/controller/PhameController.php:131
-  'New Post' => null,
+  'New Post' => '新日记',
 
   // src/applications/releeph/controller/product/ReleephProductCreateController.php:101
   'New Product' => null,
@@ -19066,7 +19067,7 @@ return array(
   'Password for SMTP.' => null,
 
   // src/applications/auth/controller/PhabricatorAuthRegisterController.php:245
-  'Password is pathologically weak. This password is one of the most common passwords in use, and is extremely easy for attackers to guess. You must choose a stronger password.' => null,
+  'Password is pathologically weak. This password is one of the most common passwords in use, and is extremely easy for attackers to guess. You must choose a stronger password.' => '您使用了弱密码，必须选择一个更强壮的密码',
 
   // src/applications/diffusion/panel/DiffusionSetPasswordSettingsPanel.php:66
   'Password is required.' => null,
@@ -19340,7 +19341,7 @@ return array(
 
   // src/applications/metamta/storage/PhabricatorMetaMTAMail.php:466
   // src/applications/auth/provider/PhabricatorPhabricatorAuthProvider.php:10
-  'Phabricator' => null,
+  'Phabricator' => '开源平台',
 
   // src/applications/people/controller/PhabricatorPeopleApproveController.php:33
   'Phabricator Account "%s" Approved' => null,
@@ -19372,14 +19373,14 @@ return array(
   'Phabricator Mail' => null,
 
   // src/applications/auth/controller/PhabricatorAuthRegisterController.php:503
-  'Phabricator Registration' => null,
+  'Phabricator Registration' => '用户注册',
 
   // src/applications/config/response/PhabricatorConfigResponse.php:24
   'Phabricator Setup Error' => null,
 
   // src/applications/auth/controller/PhabricatorAuthRegisterController.php:426
   // src/applications/auth/controller/PhabricatorAuthRegisterController.php:433
-  'Phabricator Username' => null,
+  'Phabricator Username' => '用户名',
 
   // src/applications/config/controller/PhabricatorConfigAllController.php:100
   'Phabricator Version' => null,
@@ -20782,10 +20783,10 @@ return array(
   'Rainbow Info' => null,
 
   // src/applications/audit/constants/PhabricatorAuditActionConstants.php:18
-  'Raise Concern \342\234\230' => null,
+  'Raise Concern \xE2\x9C\x98' => '提出修改意见 \xE2\x9C\x98',
 
   // src/applications/audit/storage/PhabricatorAuditTransaction.php:91
-  'Raised Concern' => null,
+  'Raised Concern' => '提出修改意见',
 
   // src/applications/maniphest/storage/ManiphestTransaction.php:281
   'Raised Priority' => null,
@@ -21392,17 +21393,17 @@ return array(
   'Regenerate Certificate' => null,
 
   // src/applications/auth/controller/PhabricatorAuthRegisterController.php:501
-  'Register' => null,
+  'Register' => '注册',
 
   // src/applications/auth/provider/PhabricatorAuthProvider.php:418
-  'Register Account' => null,
+  'Register Account' => '注册账号',
 
   // src/applications/auth/provider/PhabricatorPasswordAuthProvider.php:183
   // src/applications/auth/engine/PhabricatorAuthInviteEngine.php:114
-  'Register New Account' => null,
+  'Register New Account' => '注册新账号',
 
   // src/applications/auth/controller/PhabricatorAuthRegisterController.php:489
-  'Register Phabricator Account' => null,
+  'Register Phabricator Account' => '注册开源平台账号',
 
   // src/applications/auth/provider/PhabricatorPasswordAuthProvider.php:154
   'Register an Account' => null,
@@ -23624,7 +23625,7 @@ return array(
   'Show All Branches' => '显示所有分支',
 
   // src/applications/diffusion/controller/DiffusionCommitController.php:251
-  'Show All Changes' => null,
+  'Show All Changes' => '显示所有改动',
 
   // src/applications/differential/view/DifferentialDiffTableOfContentsView.php:208
   'Show All Context' => '显示全部内容',
@@ -23642,7 +23643,7 @@ return array(
   'Show All Projects' => '显示所有项目',
 
   // src/applications/diffusion/controller/DiffusionRepositoryController.php:461
-  'Show All Tags' => null,
+  'Show All Tags' => '显示所有标签',
 
   // src/applications/oauthserver/controller/client/PhabricatorOAuthClientSecretController.php:66
   // src/applications/oauthserver/controller/client/PhabricatorOAuthClientViewController.php:81
@@ -30143,14 +30144,14 @@ return array(
   'Username is required.' => null,
 
   // src/applications/auth/provider/PhabricatorPasswordAuthProvider.php:230
-  'Username or Email' => null,
+  'Username or Email' => '输入用户名或者邮箱',
 
   // src/applications/auth/provider/PhabricatorPasswordAuthProvider.php:218
   // src/applications/auth/provider/PhabricatorLDAPAuthProvider.php:105
   'Username or password are incorrect.' => null,
 
   // src/applications/auth/provider/PhabricatorPasswordAuthProvider.php:8
-  'Username/Password' => null,
+  'Username/Password' => '用户名/密码',
 
   // src/applications/people/query/PhabricatorPeopleSearchEngine.php:23
   'Usernames' => null,
@@ -32811,6 +32812,23 @@ return array(
   // src/applications/harbormaster/controller/HarbormasterBuildViewController.php:353
   '100' => null,
 
+  'Choose which language you would like the Phabricator UI to use.' => '选择所用的语言',
+  'Email发送' => null,
+  'Email偏好设置' => null,
+  'Customize Menu...' => '定制左侧导航栏',
+  'Create a Diff' => '创建一个Diff',
+  'Needs Audit' => '需要审核',
+    'Organization' => '单位',
+    'Milestone' => '里程碑',
+    'Release' => '版本发布',
+    'Project' => '项目',
+    'Tag' => '标签',
+    'Policy' => '策略',
+    'Folder' => '文件夹',
+    'Goal' => '目标',
+    'Infrastructure' => '基础设施',
+    'Timeline' => '时间线',
+    'Group' => '小组',
 );
 }
 }
