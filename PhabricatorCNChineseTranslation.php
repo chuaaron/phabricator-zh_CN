@@ -11171,6 +11171,8 @@ return array(
   // src/applications/project/controller/PhabricatorProjectMembersEditController.php:85
   'Edit Members' => '编辑成员',
 
+  'Edit Menu' => '编辑导航菜单',
+
   // src/applications/phortune/controller/PhortuneMerchantViewController.php:173
   'Edit Merchant' => null,
 
@@ -12309,6 +12311,8 @@ return array(
 
   // src/applications/meta/application/PhabricatorApplicationsApplication.php:24
   'Explore More Applications' => '浏览更多应用',
+
+  'More Applications' => '更多应用',
 
   // src/applications/config/controller/PhabricatorConfigWelcomeController.php:361
   'Explore Phabricator' => '探索Phabricator',
