@@ -6414,6 +6414,8 @@ return array(
   // src/applications/audit/application/PhabricatorAuditApplication.php:18
   'Browse and Audit Commits' => '浏览与审核提交',
 
+  'Browse Commits' => '浏览代码提交',
+
   // src/applications/differential/view/DifferentialChangesetListView.php:137
   'Browse in Diffusion' => '在代码库里浏览',
 
