@@ -1011,10 +1011,10 @@ return array(
   '%s couldn\'t revert this request' => null,
 
   // src/applications/pholio/storage/PholioTransaction.php:139
-  '%s created "%s".' => null,
+  '%s created "%s".' => '%s 创建了 %s。',
 
   // src/applications/calendar/storage/PhabricatorCalendarEventTransaction.php:280
-  '%s created %s' => null,
+  '%s created %s' => '%s 创建了 %s',
 
   // src/applications/differential/customfield/DifferentialTitleField.php:94
   // src/applications/config/storage/PhabricatorConfigTransaction.php:70
@@ -1027,7 +1027,7 @@ return array(
   // src/applications/phriction/storage/PhrictionTransaction.php:228
   // src/applications/paste/storage/PhabricatorPasteTransaction.php:109
   // src/applications/pholio/storage/PholioTransaction.php:244
-  '%s created %s.' => null,
+  '%s created %s.' => '%s 创建了 %s。',
 
   // src/applications/dashboard/storage/PhabricatorDashboardTransaction.php:60
   '%s created dashboard %s.' => '%s 创建的仪表板 %s。',
@@ -2432,7 +2432,7 @@ return array(
   '%s unlocked this service.' => null,
 
   // src/applications/ponder/storage/PonderAnswerTransaction.php:70
-  '%s updated %s.' => null,
+  '%s updated %s.' => '%s 更新了 %s。',
 
   // src/applications/differential/customfield/DifferentialJIRAIssuesField.php:219
   '%s updated JIRA issue(s): added %d %s; removed %d %s.' => null,
@@ -4605,10 +4605,10 @@ return array(
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditDangerousController.php:69
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:690
-  'Allow Dangerous Changes' => null,
+  'Allow Dangerous Changes' => '允许危险的操作',
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditDangerousController.php:62
-  'Allow Dangerous Changes?' => null,
+  'Allow Dangerous Changes?' => '是否要允许危险的操作？',
 
   // src/applications/base/controller/__tests__/PhabricatorAccessControlTestCase.php:137
   'Allow Disabled' => null,
@@ -10690,7 +10690,7 @@ return array(
   'Doubloon' => '金币',
 
   // src/applications/phragment/controller/PhragmentHistoryController.php:88
-  'Download' => null,
+  'Download' => '下载',
 
   // src/applications/xhprof/view/PhabricatorXHProfProfileTopLevelView.php:133
   'Download %s Profile' => null,
@@ -10699,7 +10699,7 @@ return array(
   'Download Contents as ZIP' => null,
 
   // src/applications/uiexample/examples/PHUIActionPanelExample.php:49
-  'Download Data' => null,
+  'Download Data' => '下载数据',
 
   // src/applications/files/controller/PhabricatorFileInfoController.php:150
   // src/applications/pholio/view/PholioMockImagesView.php:135
@@ -10717,7 +10717,7 @@ return array(
   'Download Raw Diff' => '下载Diff源文件',
 
   // src/applications/diffusion/controller/DiffusionBrowseFileController.php:443
-  'Download Raw File' => null,
+  'Download Raw File' => '下载原始文件',
 
   // src/applications/phragment/controller/PhragmentSnapshotViewController.php:113
   'Download Snapshot as ZIP' => null,
@@ -13760,7 +13760,7 @@ return array(
   'If you accept Phabricator SSH traffic on a different host from web traffic (for example, if you use different SSH and web load balancers), you can set the SSH hostname here. This is an advanced option.' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditDangerousController.php:65
-  'If you allow dangerous changes, it will be possible to delete branches and %s push this repository. These operations can alter a repository in a way that is difficult to recover from.' => null,
+  'If you allow dangerous changes, it will be possible to delete branches and %s push this repository. These operations can alter a repository in a way that is difficult to recover from.' => '如果您允许了危险的操作，那么，用户可以删除分支并且使用 %f push 命令。这些操作可以修改代码库的历史，导致历史记录丢失，您将无法恢复被删除的历史。',
 
   // src/applications/people/controller/PhabricatorPeopleInviteSendController.php:95
   'If you already have an account, you can follow the link to quickly verify this email address.' => null,
@@ -13988,7 +13988,7 @@ return array(
   'In %s, %s wrote:' => null,
 
   // src/applications/search/query/PhabricatorSearchApplicationSearchEngine.php:166
-  'In Any Project' => null,
+  'In Any Project' => '所有项目',
 
   // src/applications/project/typeahead/PhabricatorProjectLogicalOrNotDatasource.php:94
   // src/applications/project/typeahead/PhabricatorProjectLogicalOrNotDatasource.php:153
@@ -20119,7 +20119,7 @@ return array(
   // src/applications/files/controller/PhabricatorFileInfoController.php:254
   // src/applications/project/controller/PhabricatorProjectController.php:32
   // src/applications/people/application/PhabricatorPeopleApplication.php:146
-  'Profile' => null,
+  'Profile' => '档案',
 
   // src/applications/files/transform/PhabricatorFileThumbnailTransform.php:60
   'Profile (100px \303\227 100px)' => null,
@@ -20153,6 +20153,7 @@ return array(
   // src/applications/maniphest/controller/ManiphestReportController.php:470
   'Project' => '项目',
 
+  'Projects, Tags, and Teams' => '项目、标签和团队',
   // src/applications/project/phid/PhabricatorProjectColumnPHIDType.php:8
   'Project Column' => null,
 
@@ -21763,6 +21764,8 @@ return array(
   // src/applications/diffusion/controller/DiffusionRepositoryController.php:617
   // src/applications/diffusion/controller/DiffusionLintController.php:95
   'Repository' => '仓库',
+
+  'Manage Repository' => '管理代码库',
 
   // src/applications/repository/engine/PhabricatorRepositoryDiscoveryEngine.php:241
   'Repository "%s" does not have a correctly configured remote URI. The remote URI for a Subversion repository MUST point at the repository root. The root for this repository is "%s", but the configured URI is "%s". To resolve this error, set the remote URI to point at the repository root. If you want to import only part of a Subversion repository, use the "Import Only" option.' => null,
@@ -30543,7 +30546,7 @@ return array(
   'View Policy' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryController.php:508
-  'View Push Logs' => null,
+  'View Push Logs' => '查看代码上传日志',
 
   // src/applications/paste/controller/PhabricatorPasteViewController.php:162
   // src/applications/pholio/view/PholioMockImagesView.php:130
