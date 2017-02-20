@@ -2217,7 +2217,7 @@ return array(
   '%s requires the directory \'%s\' to exist, but it does not exist and could not be created. Create this directory or update \'%s\' / \'%s\' in your configuration to point to an existing directory.' => null,
 
   // src/applications/transactions/storage/PhabricatorApplicationTransaction.php:740
-  '%s rescinded a token.' => null,
+  '%s rescinded a token.' => '%s 取消了之前的评分',
 
   // src/applications/differential/storage/DifferentialTransaction.php:418
   '%s resigned from %s.' => null,
@@ -5829,7 +5829,7 @@ return array(
   'Award "%s" Token' => null,
 
   // src/applications/tokens/event/PhabricatorTokenUIEventListener.php:50
-  'Award Token' => '奖令牌',
+  'Award Token' => '评分',
 
   // src/applications/tokens/application/PhabricatorTokensApplication.php:22
   'Award and Acquire Trinkets' => null,
@@ -13162,7 +13162,7 @@ return array(
 
   // src/applications/tokens/controller/PhabricatorTokenGiveController.php:34
   // src/applications/tokens/controller/PhabricatorTokenGiveController.php:112
-  'Give Token' => '给令牌',
+  'Give Token' => '给予评分',
 
   // src/applications/tokens/conduit/TokenGiveConduitAPIMethod.php:10
   'Give or change a token.' => null,
@@ -21076,7 +21076,7 @@ return array(
   'Really reopen this initiative?' => null,
 
   // src/applications/tokens/controller/PhabricatorTokenGiveController.php:123
-  'Really rescind this lovely token?' => null,
+  'Really rescind this lovely token?' => '确实要取消您之前的评分吗？',
 
   // src/applications/harbormaster/controller/HarbormasterBuildableActionController.php:90
   'Really restart all builds?' => null,
@@ -22182,7 +22182,7 @@ return array(
   // src/applications/tokens/controller/PhabricatorTokenGiveController.php:120
   // src/applications/tokens/controller/PhabricatorTokenGiveController.php:125
   // src/applications/tokens/event/PhabricatorTokenUIEventListener.php:56
-  'Rescind Token' => null,
+  'Rescind Token' => '取消评分',
 
   // src/applications/almanac/controller/AlmanacController.php:104
   // src/applications/almanac/controller/AlmanacPropertyDeleteController.php:62
@@ -28060,14 +28060,14 @@ return array(
   // src/applications/tokens/application/PhabricatorTokensApplication.php:6
   // src/applications/tokens/controller/PhabricatorTokenController.php:9
   // src/applications/tokens/event/PhabricatorTokenUIEventListener.php:144
-  'Tokens' => null,
+  'Tokens' => '评分',
 
   // src/applications/tokens/controller/PhabricatorTokenGivenController.php:61
   // src/applications/tokens/controller/PhabricatorTokenController.php:10
-  'Tokens Given' => null,
+  'Tokens Given' => '给予的评分',
 
   // src/applications/tokens/controller/PhabricatorTokenLeaderController.php:41
-  'Tokens: %s' => null,
+  'Tokens: %s' => '评分：%s',
 
   // src/applications/ponder/controller/PonderQuestionEditController.php:58
   'Too Long' => null,
