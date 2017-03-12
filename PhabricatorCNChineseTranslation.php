@@ -454,7 +454,7 @@ return array(
   '%s added %s file(s): %s.' => null,
 
   // src/applications/project/edge/PhabricatorProjectProjectHasMemberEdgeType.php:64
-  '%s added %s member(s) for %s: %s.' => null,
+  '%s added %s member(s) for %s: %s.' => '%s 添加了%s位成员到 %s，新的成员是 %s',
 
   // src/applications/project/edge/PhabricatorProjectProjectHasMemberEdgeType.php:22
   '%s added %s member(s): %s.' => null,
@@ -593,11 +593,11 @@ return array(
 
   // src/applications/differential/storage/DifferentialTransaction.php:324
   // src/applications/audit/storage/PhabricatorAuditTransaction.php:321
-  '%s added inline comments to %s.' => null,
+  '%s added inline comments to %s.' => '%s 给 %s 的某一行代码添加了一条评论',
 
   // src/applications/differential/storage/DifferentialTransaction.php:217
   // src/applications/audit/storage/PhabricatorAuditTransaction.php:187
-  '%s added inline comments.' => null,
+  '%s added inline comments.' => '%s对某一行代码进行了评论',
 
   // src/applications/differential/constants/DifferentialAction.php:92
   '%s added reviewers to this revision.' => null,
@@ -670,7 +670,7 @@ return array(
   '%s attached audio: %s.' => null,
 
   // src/applications/tokens/feed/PhabricatorTokenGivenFeedStory.php:40
-  '%s awarded %s a %s token.' => null,
+  '%s awarded %s a %s token.' => '%s给%s一个%s的评价',
 
   // src/applications/transactions/storage/PhabricatorApplicationTransaction.php:744
   '%s awarded a token.' => null,
@@ -8925,7 +8925,7 @@ return array(
   'Create Test Authorization' => null,
 
   // src/applications/phriction/controller/PhrictionDocumentController.php:278
-  'Create This Document' => null,
+  'Create This Document' => '创建文档',
 
   // src/applications/people/controller/PhabricatorPeopleNewController.php:180
   'Create User' => '创建用户',
@@ -10140,7 +10140,7 @@ return array(
 
   // src/applications/differential/config/PhabricatorDifferentialConfigOptions.php:7
   // src/applications/differential/application/PhabricatorDifferentialApplication.php:10
-  'Differential' => 'Diff检阅',
+  'Differential' => '代码评审',
 
   // src/applications/herald/adapter/HeraldAdapter.php:390
   'Differential CCs' => null,
@@ -10158,14 +10158,14 @@ return array(
 
   // src/applications/differential/phid/DifferentialRevisionPHIDType.php:8
   // src/applications/differential/customfield/DifferentialRevisionIDField.php:17
-  'Differential Revision' => 'Diff检阅修订',
+  'Differential Revision' => '代码变更修订',
 
   // src/applications/differential/query/DifferentialRevisionSearchEngine.php:7
   // src/applications/differential/editor/DifferentialTransactionEditor.php:16
   // src/applications/harbormaster/query/HarbormasterBuildableSearchEngine.php:127
   // src/applications/maniphest/controller/ManiphestTaskDetailController.php:489
   // src/applications/herald/adapter/HeraldDifferentialRevisionAdapter.php:39
-  'Differential Revisions' => null,
+  'Differential Revisions' => '代码变更修订',
 
   // src/applications/differential/application/PhabricatorDifferentialApplication.php:28
   'Differential User Guide' => null,
@@ -10405,7 +10405,7 @@ return array(
   'Discovering...' => null,
 
   // src/applications/tokens/query/PhabricatorTokenQuery.php:31
-  'Dislike' => '不喜欢',
+  'Dislike' => '不喜欢 1分',
 
   // src/applications/typeahead/controller/PhabricatorTypeaheadModularDatasourceController.php:318
   'Display Name' => null,
@@ -10717,6 +10717,8 @@ return array(
   // src/applications/differential/controller/DifferentialRevisionViewController.php:572
   // src/applications/diffusion/controller/DiffusionCommitController.php:974
   'Download Raw Diff' => '下载Diff源文件',
+    'Download zip release' => '下载zip压缩包',
+    'Download %s %s zip release' => '下载 %s %s 的tar.gz压缩包',
 
   // src/applications/diffusion/controller/DiffusionBrowseFileController.php:443
   'Download Raw File' => '下载原始文件',
@@ -11010,6 +11012,7 @@ return array(
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditBasicController.php:92
   'Edit Basics' => null,
+  'Basics' => '基本信息',
 
   // src/applications/almanac/controller/AlmanacBindingViewController.php:110
   // src/applications/almanac/controller/AlmanacBindingEditController.php:29
@@ -11374,7 +11377,7 @@ return array(
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:1261
   // src/applications/diffusion/controller/DiffusionRepositorySymbolsController.php:69
-  'Edit Symbols' => null,
+  'Edit Symbols' => '编辑语言符号',
 
   // src/applications/maniphest/controller/ManiphestTaskEditController.php:550
   // src/applications/maniphest/controller/ManiphestTaskDetailController.php:409
@@ -13238,7 +13241,7 @@ return array(
   'Grey' => null,
 
   // src/applications/tokens/query/PhabricatorTokenQuery.php:35
-  'Grey Medal' => '银牌',
+  'Grey Medal' => '银牌 3分',
 
   // src/applications/uiexample/examples/PHUIColorPalletteExample.php:105
   'Greys' => null,
@@ -13379,7 +13382,7 @@ return array(
   'Heart' => null,
 
   // src/applications/tokens/query/PhabricatorTokenQuery.php:33
-  'Heartbreak' => '心碎',
+  'Heartbreak' => '心碎 1分',
 
   // src/applications/uiexample/examples/PHUIObjectItemListExample.php:241
   'Hearts' => null,
@@ -14877,19 +14880,19 @@ return array(
   'LDAP Hostname' => null,
 
   // src/applications/auth/provider/PhabricatorLDAPAuthProvider.php:119
-  'LDAP Password' => null,
+  'LDAP Password' => 'MUSIC密码',
 
   // src/applications/auth/management/PhabricatorAuthManagementLDAPWorkflow.php:45
-  'LDAP Password: ' => null,
+  'LDAP Password: ' => 'MUSIC密码:',
 
   // src/applications/auth/provider/PhabricatorLDAPAuthProvider.php:207
   'LDAP Port' => null,
 
   // src/applications/auth/provider/PhabricatorLDAPAuthProvider.php:113
-  'LDAP Username' => null,
+  'LDAP Username' => 'MUSIC用户名',
 
   // src/applications/auth/management/PhabricatorAuthManagementLDAPWorkflow.php:38
-  'LDAP Username: ' => null,
+  'LDAP Username: ' => 'MUSIC用户名:',
 
   // src/applications/auth/provider/PhabricatorLDAPAuthProvider.php:215
   'LDAP Version' => null,
@@ -14898,7 +14901,7 @@ return array(
   'LDAP query' => null,
 
   // src/applications/people/controller/PhabricatorPeopleLdapController.php:19
-  'LDAP username' => null,
+  'LDAP username' => 'MUSIC用户名',
 
   // src/applications/almanac/management/AlmanacManagementLockWorkflow.php:42
   'LOCKED' => null,
@@ -14925,7 +14928,7 @@ return array(
 
   // src/applications/paste/query/PhabricatorPasteSearchEngine.php:49
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:1286
-  'Languages' => null,
+  'Languages' => '语言',
 
   // src/applications/config/check/PhabricatorStorageSetupCheck.php:34
   'Large File Storage Not Configured' => null,
@@ -15175,7 +15178,7 @@ return array(
   'Light Violet' => null,
 
   // src/applications/tokens/query/PhabricatorTokenQuery.php:30
-  'Like' => '喜欢',
+  'Like' => '喜欢 5分',
 
   // src/applications/uiexample/examples/PhabricatorAphrontBarUIExample.php:10
   'Like fractions, but more horizontal.' => null,
@@ -15215,7 +15218,7 @@ return array(
   'Link External Account' => null,
 
   // src/applications/auth/provider/PhabricatorLDAPAuthProvider.php:74
-  'Link LDAP Account' => null,
+  'Link LDAP Account' => '关联MUSIC账号',
 
   // src/applications/settings/panel/PhabricatorDisplayPreferencesSettingsPanel.php:99
   'Link to edit files in external editor. %%f is replaced by filename, %%l by line number, %%r by repository callsign, %%%% by literal %%. For documentation, see: %s' => null,
@@ -15520,10 +15523,10 @@ return array(
   // src/applications/uiexample/examples/PHUIButtonExample.php:172
   // src/applications/auth/provider/PhabricatorLDAPAuthProvider.php:84
   // src/applications/auth/provider/PhabricatorAuthProvider.php:420
-  'Login or Register' => '登录或注册',
+  'Login or Register' => '登录',
 
   // src/applications/auth/provider/PhabricatorLDAPAuthProvider.php:83
-  'Login or Register with LDAP' => null,
+  'Login or Register with LDAP' => '用MUSIC账号登录',
 
   // src/applications/transactions/view/PhabricatorApplicationTransactionCommentView.php:97
   'Login to Comment' => null,
@@ -15543,7 +15546,7 @@ return array(
   'Login validation is missing expected parameter ("%s").' => null,
 
   // src/applications/auth/provider/PhabricatorLDAPAuthProvider.php:86
-  'Login with LDAP' => '使用LDAP账号登陆',
+  'Login with LDAP' => '使用MUSIC账号登陆',
 
   // src/applications/oauthserver/application/PhabricatorOAuthServerApplication.php:26
   'Login with Phabricator' => '使用Phabricator登录',
@@ -15616,7 +15619,7 @@ return array(
   'Louder is Better' => null,
 
   // src/applications/tokens/query/PhabricatorTokenQuery.php:32
-  'Love' => '爱',
+  'Love' => '爱 5分',
 
   // src/applications/people/storage/PhabricatorUser.php:633
   'Love,\nPhabricator' => null,
@@ -15926,7 +15929,7 @@ return array(
   'Manually invoke fact analyzers.' => null,
 
   // src/applications/tokens/query/PhabricatorTokenQuery.php:37
-  'Manufacturing Defect?' => null,
+  'Manufacturing Defect?' => '有缺陷 0分',
 
   // src/applications/files/config/PhabricatorFilesConfigOptions.php:132
   'Map of MIME type to icon name. MIME types which can not be found default to icon `%s`.' => null,
@@ -18585,7 +18588,7 @@ return array(
   'Orange' => '橙色',
 
   // src/applications/tokens/query/PhabricatorTokenQuery.php:34
-  'Orange Medal' => '铜牌',
+  'Orange Medal' => '铜牌 2分',
 
   // src/applications/phortune/view/PhortuneOrderTableView.php:134
   // src/applications/phortune/query/PhortuneCartSearchEngine.php:205
@@ -19681,17 +19684,17 @@ return array(
 
   // src/applications/phriction/config/PhabricatorPhrictionConfigOptions.php:7
   // src/applications/phriction/application/PhabricatorPhrictionApplication.php:6
-  'Phriction' => 'Wiki',
+  'Phriction' => '百科',
 
   // src/applications/phriction/editor/PhrictionTransactionEditor.php:77
   // src/applications/phriction/herald/PhrictionDocumentHeraldAdapter.php:33
-  'Phriction Documents' => null,
+  'Phriction Documents' => '百科文档',
 
   // src/applications/phriction/application/PhabricatorPhrictionApplication.php:28
-  'Phriction User Guide' => null,
+  'Phriction User Guide' => '百科用户指南',
 
   // src/applications/phriction/phid/PhrictionDocumentPHIDType.php:8
-  'Phriction Wiki Document' => null,
+  'Phriction Wiki Document' => '百科文档',
 
   // src/applications/releeph/controller/product/ReleephProductEditController.php:155
   'Pick Instructions' => null,
@@ -20157,7 +20160,7 @@ return array(
   // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:282
   // src/applications/maniphest/controller/ManiphestReportController.php:326
   // src/applications/maniphest/controller/ManiphestReportController.php:470
-  'Project' => '项目',
+  'Project' => '项目和团队',
 
   'Projects, Tags, and Teams' => '项目、标签和团队',
   // src/applications/project/phid/PhabricatorProjectColumnPHIDType.php:8
@@ -20216,7 +20219,7 @@ return array(
   // src/applications/diffusion/controller/DiffusionRepositoryController.php:237
   // src/applications/diffusion/controller/DiffusionCommitEditController.php:46
   // src/applications/diffusion/controller/DiffusionRepositoryEditBasicController.php:129
-  'Projects' => '项目',
+  'Projects' => '项目和团队',
 
   // src/applications/project/typeahead/PhabricatorProjectLogicalUserDatasource.php:27
   'Projects: ...' => null,
@@ -21343,7 +21346,7 @@ return array(
   'Refresh Account Link' => null,
 
   // src/applications/auth/provider/PhabricatorLDAPAuthProvider.php:78
-  'Refresh LDAP Account' => null,
+  'Refresh LDAP Account' => '同步MUSIC账号',
 
   // src/applications/auth/management/PhabricatorAuthManagementRefreshWorkflow.php:12
   'Refresh OAuth access tokens. This is primarily useful for development and debugging.' => null,
@@ -25218,7 +25221,7 @@ return array(
   'Symbolic Name' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:179
-  'Symbols' => null,
+  'Symbols' => '程序语言',
 
   // src/applications/doorkeeper/worker/DoorkeeperAsanaFeedWorker.php:275
   'Synchronization of child task from Asana failed!' => null,
@@ -31123,7 +31126,7 @@ return array(
   'Yellow' => '黄色',
 
   // src/applications/tokens/query/PhabricatorTokenQuery.php:36
-  'Yellow Medal' => '金牌',
+  'Yellow Medal' => '金牌 4分',
 
   // src/applications/phrequent/query/PhrequentUserTimeQuery.php:242
   // src/applications/config/controller/PhabricatorConfigDatabaseController.php:59
@@ -32031,10 +32034,10 @@ return array(
   'You must delegate to this controller, not invoke it directly.' => null,
 
   // src/applications/auth/management/PhabricatorAuthManagementLDAPWorkflow.php:50
-  'You must enter an LDAP password.' => null,
+  'You must enter an LDAP password.' => '您必须输入密码',
 
   // src/applications/auth/management/PhabricatorAuthManagementLDAPWorkflow.php:41
-  'You must enter an LDAP username.' => null,
+  'You must enter an LDAP username.' => '您必须输入用户名',
 
   // src/applications/releeph/controller/branch/ReleephBranchCreateController.php:59
   'You must give a branch cut point' => null,
@@ -32820,7 +32823,12 @@ return array(
 
   // src/applications/harbormaster/controller/HarbormasterBuildViewController.php:353
   '100' => null,
-
+  'Group' => '团队',
+  'Organization' => '组织',
+  ' Group' => '团队',
+  ' Organization' => '组织',
+  ' Project' => '项目',
+  
   'Choose which language you would like the Phabricator UI to use.' => '选择所用的语言',
   'Email发送' => null,
   'Email偏好设置' => null,
@@ -32830,14 +32838,14 @@ return array(
     'Organization' => '单位',
     'Milestone' => '里程碑',
     'Release' => '版本发布',
-    'Project' => '项目',
+    'Project' => '项目和团队',
     'Tag' => '标签',
     'Policy' => '策略',
     'Folder' => '文件夹',
     'Goal' => '目标',
     'Infrastructure' => '基础设施',
     'Timeline' => '时间线',
-    'Group' => '小组',
+    'Group' => '团队',
 );
 }
 }
