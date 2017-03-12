@@ -28064,6 +28064,7 @@ return array(
   // src/applications/tokens/controller/PhabricatorTokenController.php:9
   // src/applications/tokens/event/PhabricatorTokenUIEventListener.php:144
   'Tokens' => '评分',
+  'Average Score: %s' => '平均得分：%s',
 
   // src/applications/tokens/controller/PhabricatorTokenGivenController.php:61
   // src/applications/tokens/controller/PhabricatorTokenController.php:10
