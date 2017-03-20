@@ -25324,6 +25324,8 @@ return array(
   // src/applications/diffusion/controller/DiffusionRepositoryController.php:450
   // src/applications/diffusion/controller/DiffusionController.php:127
   'Tags' => '标签',
+  'Releases' => '发布的版本',
+  'Show All Releases' => '显示所有版本',
 
   // src/applications/diffusion/controller/DiffusionController.php:120
   'Tags for %s' => null,
@@ -28064,7 +28066,7 @@ return array(
   // src/applications/tokens/controller/PhabricatorTokenController.php:9
   // src/applications/tokens/event/PhabricatorTokenUIEventListener.php:144
   'Tokens' => '评分',
-  'Average Score: %s' => '平均得分：%s',
+  'Average Score: %s' => '%s',
 
   // src/applications/tokens/controller/PhabricatorTokenGivenController.php:61
   // src/applications/tokens/controller/PhabricatorTokenController.php:10
