@@ -10693,6 +10693,7 @@ return array(
 
   // src/applications/phragment/controller/PhragmentHistoryController.php:88
   'Download' => '下载',
+  'Total Downloads' => '下载次数',
 
   // src/applications/xhprof/view/PhabricatorXHProfProfileTopLevelView.php:133
   'Download %s Profile' => null,
@@ -15480,6 +15481,7 @@ return array(
   // src/applications/auth/engine/PhabricatorAuthInviteEngine.php:157
   // src/applications/auth/engine/PhabricatorAuthInviteEngine.php:178
   'Log Out' => '退出登录',
+  'Log Out %s' => '登出 %s',
 
   // src/applications/auth/controller/PhabricatorLogoutController.php:62
   'Log out of Phabricator?' => '退出Phabricator?',
@@ -28116,7 +28118,8 @@ return array(
   // src/applications/config/controller/PhabricatorConfigCacheController.php:79
   // src/applications/xhprof/view/PhabricatorXHProfProfileTopLevelView.php:57
   // src/applications/maniphest/controller/ManiphestReportController.php:592
-  'Total' => null,
+  'Total' => '总数',
+  'Total %s' => '共 %s 个',
 
   // src/applications/files/controller/PhabricatorFileInfoController.php:369
   'Total Chunks' => null,
