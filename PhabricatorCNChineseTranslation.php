@@ -3273,7 +3273,9 @@ return array(
   'A gallery of modern art.' => null,
 
   // src/applications/auth/controller/PhabricatorAuthSSHKeyGenerateController.php:58
-  'A keypair has been generated, and the public key has been added as a recognized key. Use the button below to download the private key.' => null,
+  'A keypair has been generated, and the public key has been '.
+            'added as a recognized key. Use the button below to download '.
+            'the private key.' => '已经生成了SSH Key，您现在需要下载私钥。需要注意的是，您只能在本页面下载私钥，如果您不下载私钥，那么私钥将会丢失，您需要重新生成SSH Key. ',
 
   // src/applications/uiexample/examples/PHUITimelineExample.php:39
   'A major event with no title.' => null,
@@ -4310,7 +4312,8 @@ return array(
   'After you copy and paste this token, `arc` will complete the certificate install process for you.' => null,
 
   // src/applications/auth/controller/PhabricatorAuthSSHKeyGenerateController.php:63
-  'After you download the private key, it will be destroyed. You will not be able to retrieve it if you lose your copy.' => null,
+  'After you download the private key, it will be destroyed. '.
+            'You will not be able to retrieve it if you lose your copy.' => '您必须在本页面下载私钥，如果您没有下载私钥而是直接离开本页面，或者您丢失了您的私钥，那么，您需要重新生成SSH Key。',
 
   // src/applications/auth/controller/PhabricatorAuthRegisterController.php:204
   // src/applications/auth/controller/PhabricatorEmailLoginController.php:25
@@ -8259,7 +8262,7 @@ return array(
   'Confirm Password' => '确认密码',
 
   // src/applications/diffusion/panel/DiffusionSetPasswordSettingsPanel.php:162
-  'Confirm VCS Password' => null,
+  'Confirm VCS Password' => '再次输入新VCS密码',
 
   // src/applications/config/option/PhabricatorDeveloperConfigOptions.php:91
   'Confirm before redirecting so DarkConsole can be examined.' => null,
@@ -10650,7 +10653,7 @@ return array(
   // src/applications/auth/controller/PhabricatorEmailLoginController.php:119
   // src/applications/auth/controller/PhabricatorAuthSSHKeyGenerateController.php:66
   // src/applications/diffusion/controller/DiffusionRepositoryEditStorageController.php:67
-  'Done' => null,
+  'Done' => '完成',
 
   // src/applications/differential/management/PhabricatorHunksManagementMigrateWorkflow.php:56
   // src/applications/fact/management/PhabricatorFactManagementDestroyWorkflow.php:40
@@ -10713,7 +10716,7 @@ return array(
 
   // src/applications/auth/controller/PhabricatorAuthSSHKeyGenerateController.php:52
   // src/applications/auth/controller/PhabricatorAuthSSHKeyGenerateController.php:65
-  'Download Private Key' => null,
+  'Download Private Key' => '下载私钥',
 
   // src/applications/differential/controller/DifferentialRevisionViewController.php:572
   // src/applications/diffusion/controller/DiffusionCommitController.php:974
@@ -13060,11 +13063,11 @@ return array(
 
   // src/applications/settings/panel/PhabricatorSSHKeysSettingsPanel.php:66
   // src/applications/almanac/controller/AlmanacDeviceViewController.php:186
-  'Generate Keypair' => null,
+  'Generate Keypair' => '生成SSH Key',
 
   // src/applications/auth/controller/PhabricatorAuthSSHKeyGenerateController.php:73
   // src/applications/auth/controller/PhabricatorAuthSSHKeyGenerateController.php:81
-  'Generate New Keypair' => null,
+  'Generate New Keypair' => '生成新的SSH Key',
 
   // src/applications/conduit/controller/PhabricatorConduitTokenEditController.php:49
   'Generate Token' => null,
@@ -13242,7 +13245,7 @@ return array(
   'Grey' => null,
 
   // src/applications/tokens/query/PhabricatorTokenQuery.php:35
-  'Grey Medal' => '银牌 3分',
+  'Grey Medal' => '3分',
 
   // src/applications/uiexample/examples/PHUIColorPalletteExample.php:105
   'Greys' => null,
@@ -13383,7 +13386,7 @@ return array(
   'Heart' => null,
 
   // src/applications/tokens/query/PhabricatorTokenQuery.php:33
-  'Heartbreak' => '心碎 1分',
+  'Heartbreak' => '1分',
 
   // src/applications/uiexample/examples/PHUIObjectItemListExample.php:241
   'Hearts' => null,
@@ -15621,7 +15624,7 @@ return array(
   'Louder is Better' => null,
 
   // src/applications/tokens/query/PhabricatorTokenQuery.php:32
-  'Love' => '爱 5分',
+  'Love' => '5分',
 
   // src/applications/people/storage/PhabricatorUser.php:633
   'Love,\nPhabricator' => null,
@@ -15931,7 +15934,7 @@ return array(
   'Manually invoke fact analyzers.' => null,
 
   // src/applications/tokens/query/PhabricatorTokenQuery.php:37
-  'Manufacturing Defect?' => '有缺陷 0分',
+  'Manufacturing Defect?' => '0分',
 
   // src/applications/files/config/PhabricatorFilesConfigOptions.php:132
   'Map of MIME type to icon name. MIME types which can not be found default to icon `%s`.' => null,
@@ -17104,7 +17107,7 @@ return array(
   'No Panels Exist Yet' => null,
 
   // src/applications/diffusion/panel/DiffusionSetPasswordSettingsPanel.php:148
-  'No Password Set' => null,
+  'No Password Set' => '未设置密码',
 
   // src/applications/home/controller/PhabricatorHomeMainController.php:400
   'No Problem Commits' => null,
@@ -18590,7 +18593,7 @@ return array(
   'Orange' => '橙色',
 
   // src/applications/tokens/query/PhabricatorTokenQuery.php:34
-  'Orange Medal' => '铜牌 2分',
+  'Orange Medal' => '2分',
 
   // src/applications/phortune/view/PhortuneOrderTableView.php:134
   // src/applications/phortune/query/PhortuneCartSearchEngine.php:205
@@ -19546,7 +19549,7 @@ return array(
   'Phabricator will host this repository. Users will be able to push commits to Phabricator. Phabricator will not pull changes from elsewhere.' => null,
 
   // src/applications/auth/controller/PhabricatorAuthSSHKeyGenerateController.php:80
-  'Phabricator will not retain a copy of the private key.' => null,
+  'Phabricator will not retain a copy of the private key.' => '需要注意的是，开源平台不会保存私钥，因此，您必须在生成新的SSH Key之后立即下载私钥.',
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditHostingController.php:220
   'Phabricator will not serve this repository over HTTP.' => null,
@@ -21638,7 +21641,7 @@ return array(
   'Remove Project Member' => null,
 
   // src/applications/diffusion/panel/DiffusionSetPasswordSettingsPanel.php:260
-  'Remove VCS Password' => null,
+  'Remove VCS Password' => '删除VCS密码',
 
   // src/applications/people/controller/PhabricatorPeopleEmpowerController.php:50
   'Remove as Administrator?' => null,
@@ -27780,7 +27783,8 @@ return array(
   'This workboard has not been setup yet.' => null,
 
   // src/applications/auth/controller/PhabricatorAuthSSHKeyGenerateController.php:77
-  'This workflow will generate a new SSH keypair, add the public key, and let you download the private key.' => null,
+  'This workflow will generate a new SSH keypair, add the public '.
+            'key, and let you download the private key.' => '将要新生成新的SSH Key，同时，您可以下载对应的私钥。',
 
   // src/applications/uiexample/examples/PHUIPropertyListExample.php:104
   'Thispropertylabelandpropertyvaluearequitelongandhavenospacestheydemonstratetheoverflowbehavioroftheelementorlackthereof.' => null,
@@ -27877,7 +27881,11 @@ return array(
   'To RSVP to the event, specify the desired RSVP, like `!rsvp yes`. This table shows the configured names for rsvp\'s.\n\n%s\n\nIf you specify an invalid rsvp, the command is ignored. This command has no effect if you do not specify an rsvp.' => null,
 
   // src/applications/diffusion/panel/DiffusionSetPasswordSettingsPanel.php:129
-  'To access repositories hosted by Phabricator over HTTP, you must set a version control password. This password should be unique.\n\nThis password applies to all repositories available over HTTP.' => null,
+  'To access repositories hosted by Phabricator over HTTP, you must '.
+          'set a version control password. This password should be unique.'.
+          "\n\n".
+          "This password applies to all repositories available over ".
+          "HTTP." => '如果您需要通过HTTP协议访问Git代码库，您必须设置一个VCS密码\n\n当您通过HTTP操作Git代码库时，您需要输入VCS密码',
 
   // src/applications/auth/controller/PhabricatorAuthNeedsMultiFactorController.php:49
   'To add an authentication factor, click the %s button below.' => null,
@@ -31132,7 +31140,7 @@ return array(
   'Yellow' => '黄色',
 
   // src/applications/tokens/query/PhabricatorTokenQuery.php:36
-  'Yellow Medal' => '金牌 4分',
+  'Yellow Medal' => '4分',
 
   // src/applications/phrequent/query/PhrequentUserTimeQuery.php:242
   // src/applications/config/controller/PhabricatorConfigDatabaseController.php:59
@@ -31562,7 +31570,7 @@ return array(
   'You can regenerate this certificate, which will invalidate the old certificate and create a new one.' => null,
 
   // src/applications/diffusion/panel/DiffusionSetPasswordSettingsPanel.php:247
-  'You can remove your VCS password, which will prevent your account from accessing repositories.' => null,
+  'You can remove your VCS password, which will prevent your account from accessing repositories.' => '您可以删除VCS密码，删除之后，您将无法通过HTTP协议操作代码库',
 
   // src/applications/config/option/PhabricatorExtendingPhabricatorConfigOptions.php:34
   'You can respond to various application events by installing listeners, which will receive callbacks when interesting things occur. Specify a list of classes which extend PhabricatorEventListener here.' => null,
@@ -31628,7 +31636,7 @@ return array(
   'You do not control any merchant accounts. Merchant accounts are used to receive payments.' => null,
 
   // src/applications/diffusion/panel/DiffusionSetPasswordSettingsPanel.php:255
-  'You do not currently have a VCS password set. If you set one, you can remove it here later.' => null,
+  'You do not currently have a VCS password set. If you set one, you can remove it here later.' => '您没有设置VCS密码，您无法通过HTTP协议操作Git代码库',
 
   // src/applications/auth/controller/PhabricatorAuthLinkController.php:71
   'You do not have a linked account on this provider, and thus can not refresh it.' => null,
@@ -32852,6 +32860,9 @@ return array(
     'Infrastructure' => '基础设施',
     'Timeline' => '时间线',
     'Group' => '团队',
+
+  'D, M j' => 'n月j日',
+  'M j Y' => 'Y年n月j日',
 );
 }
 }
