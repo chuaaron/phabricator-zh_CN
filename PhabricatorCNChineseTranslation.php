@@ -11662,6 +11662,7 @@ return array(
 
   // src/applications/people/controller/PhabricatorPeopleEmpowerController.php:61
   'Empower %s as an administrator? They will be able to create users, approve users, make and remove administrators, delete accounts, and perform other administrative functions on this Phabricator install.' => null,
+  'Empower %s as a developer?' => '提升 %s 成为开发者?',
 
   // src/applications/console/plugin/DarkConsoleServicesPlugin.php:121
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:185
@@ -15782,8 +15783,11 @@ return array(
   // src/applications/people/controller/PhabricatorPeopleEmpowerController.php:65
   'Make Administrator' => '成为管理员',
 
+  'Make Developer' => '成为开发者',
+
   // src/applications/people/controller/PhabricatorPeopleEmpowerController.php:58
-  'Make Administrator?' => null,
+  'Make Administrator?' => '成为管理员?',
+  'Make Developer?' => '成为开发者?',
 
   // src/applications/harbormaster/step/HarbormasterHTTPRequestBuildStepImplementation.php:7
   'Make HTTP Request' => null,
@@ -20551,7 +20555,7 @@ return array(
   // src/applications/repository/query/PhabricatorRepositoryPushLogSearchEngine.php:69
   // src/applications/releeph/controller/product/ReleephProductViewController.php:238
   // src/applications/releeph/controller/product/ReleephProductEditController.php:189
-  'Pushers' => null,
+  'Pushers' => '开发者',
 
   // src/applications/repository/management/PhabricatorRepositoryManagementMirrorWorkflow.php:38
   'Pushing "%s" to mirrors...' => null,
@@ -21609,11 +21613,13 @@ return array(
 
   // src/applications/people/controller/PhabricatorPeopleEmpowerController.php:53
   'Remove %s as an administrator? They will no longer be able to perform administrative functions on this Phabricator install.' => null,
+  'Remove %s as a developer?' => '移除 %s 的开发者权限?',
 
   // src/applications/people/controller/PhabricatorPeopleProfileController.php:78
   // src/applications/people/controller/PhabricatorPeopleEmpowerController.php:51
   // src/applications/people/controller/PhabricatorPeopleEmpowerController.php:56
   'Remove Administrator' => '移除管理员权限',
+  'Remove Developer' => '移除开发者权限',
 
   // src/applications/transactions/controller/PhabricatorApplicationTransactionCommentRemoveController.php:60
   // src/applications/transactions/controller/PhabricatorApplicationTransactionCommentRemoveController.php:73
@@ -21644,7 +21650,8 @@ return array(
   'Remove VCS Password' => '删除VCS密码',
 
   // src/applications/people/controller/PhabricatorPeopleEmpowerController.php:50
-  'Remove as Administrator?' => null,
+  'Remove as Administrator?' => '移除管理员权限?',
+  'Remove as Developer?' => '移除开发者权限?',
 
   // src/applications/herald/adapter/HeraldAdapter.php:837
   'Remove emails from CC' => null,
@@ -27885,7 +27892,7 @@ return array(
           'set a version control password. This password should be unique.'.
           "\n\n".
           "This password applies to all repositories available over ".
-          "HTTP." => '如果您需要通过HTTP协议访问Git代码库，您必须设置一个VCS密码\n\n当您通过HTTP操作Git代码库时，您需要输入VCS密码',
+          "HTTP." => '如果您需要通过HTTP协议访问Git代码库，您必须使用VCS密码，您的初始VCS密码和登录密码相同，您可以修改VCS密码为一个不同的密码。当您通过HTTP操作Git代码库时，您需要输入VCS密码',
 
   // src/applications/auth/controller/PhabricatorAuthNeedsMultiFactorController.php:49
   'To add an authentication factor, click the %s button below.' => null,
@@ -31177,7 +31184,7 @@ return array(
   'You Shall Journey No Farther' => null,
 
   // src/applications/policy/filter/PhabricatorPolicyFilter.php:680
-  'You Shall Not Pass: %s' => null,
+  'You Shall Not Pass: %s' => '您没有操作权限: %s',
 
   // src/applications/repository/management/PhabricatorRepositoryManagementReparseWorkflow.php:163
   'You are about to recreate the relationship entries between the commits and the packages they touch. This might delete some existing relationship entries for some old commits.' => null,
@@ -32863,6 +32870,8 @@ return array(
 
   'D, M j' => 'n月j日',
   'M j Y' => 'Y年n月j日',
+
+  'As Developer' => '注册为开发人员',
 );
 }
 }
